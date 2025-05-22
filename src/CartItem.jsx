@@ -41,7 +41,7 @@ const CartItem = ({ onContinueShopping }) => {
   // Placeholder for checkout functionality
   const handleCheckoutShopping = (e) => {
     e.preventDefault();
-    alert('Checkout functionality will be added later');
+    alert('Coming Soon');
   };
 
   return (
