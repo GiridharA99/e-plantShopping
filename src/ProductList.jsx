@@ -8,7 +8,7 @@ function ProductList({ onHomeClick }) {
   const [showCart, setShowCart] = useState(false);
   const [notification, setNotification] = useState(''); // Notification state
   const dispatch = useDispatch();
-  const cart = useSelector((state) => state.cart.items);
+//   const cart = useSelector((state) => state.cart.items);
 
   // Reduced data: one category with exactly 8 plants
   const plantsArray = [
